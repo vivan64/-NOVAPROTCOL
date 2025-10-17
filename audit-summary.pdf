@@ -1,0 +1,15 @@
+NovaProtocol — Audit Summary
+
+Scope
+- Code reviewed: contract stubs in /contracts
+- Testnets used: NONE
+- Focus areas: contract design, cross-chain routing logic, gas estimations 
+
+Findings 
+- Issue #1 (low): Placeholder variable naming inconsistent in DemoContract.sol.
+- Issue #2 (informational): Demo bridging logic is conceptual; real implementation would require hardened validators and bridge verification.
+
+Recommendations
+- For production: independent audit by a recognized security firm; enforce time locks and multi-sig for custody; deploy on testnet with audit tracking.
+
+
